@@ -1,0 +1,42 @@
+body {
+	background: rgb(0,0,0);
+	color:white;
+}
+
+#top {
+	background: blue;
+	height: 50px;
+	display:table-row;
+}
+
+.tab {
+
+    height: 60px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #69D2E7;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Verdana, Arial, Sans-Serif;
+    opacity: 0.5;
+    display: table-cell;
+}
+
+#logo {
+	display: table-cell;
+	background: red;
+	width: 150px;
+}
+
+#bottom {
+	background:rgb(255,255,255);
+	color: black;
+	/* Firefox */
+	height: -moz-calc(100% - 60px);
+	/* WebKit */
+	height: -webkit-calc(100% - 60px);
+	/* Opera */
+	height: -o-calc(100% - 60px);
+	/* Standard */
+	height: calc(100% - 60px);
+}
