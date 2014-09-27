@@ -9,6 +9,10 @@ body {
 	display:table-row;
 }
 
+.topwrapper {
+	display:table;
+}
+
 .tab {
 
     height: 60px;
@@ -24,8 +28,11 @@ body {
 
 #logo {
 	display: table-cell;
-	background: red;
+	background: black;
 	width: 150px;
+	font-family: Verdana, Arial, Sans-Serif;
+	display: table-cell;
+
 }
 
 #bottom {
