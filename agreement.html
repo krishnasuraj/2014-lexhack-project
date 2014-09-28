@@ -2,7 +2,9 @@
 	<head>
 		<title>EasyA - Main</title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="https://cdn.firebase.com/js/client/1.0.24/firebase.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="readurl.js"></script>
 	</head>
 	</head>
 </title>
@@ -18,14 +20,22 @@
 		<a class="tab" id="tutor" href="tutor.html">Tutor</a>
 		<div class="spacer"></div>
 		<a class="tab" id="Profession" href="Profession.html">Profession</a>
-
 	</div>
 </div>
-<div id="bottom"></div>
-<div id="border">
-	<div id="maintext"><em>Get personal tutoring in any subject</em></div>
+<div id="bottom">
 </div>
-
+<div id="border">
+	<div id="title"></div>
+	<div id="createprof">
+		<div id="nicealignment">
+			<p class = "smallfont"> Hourly Wage Request: <input type="text" id="wage" name="Wage" value=""></p>
+			<p class = "smallfont"> Date (m/d): <input type="text" id="date" name="Date" value=""></p>
+			<p class = "smallfont"> Time (h:m AM/PM): <input type="text" id="time" name="Time" value=""></p>
+			<p class = "smallfont"> Email Address: <input type="text" id="email" name="Email" value=""></p>
+			<input type="submit" value="Submit">
+		</div>
+	</div>
+</div>
 </body>
 </html>
 

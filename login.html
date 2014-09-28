@@ -2,10 +2,11 @@
 	<head>
 		<title>EasyA - Main</title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<script src="https://cdn.firebase.com/js/client/1.0.24/firebase.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	</head>
-	</head>
-</title>
+
+	<script src="login.js"></script>
 
 <body>
 <div id="top_wrapper">
@@ -17,15 +18,19 @@
 		<div class="spacer"></div>
 		<a class="tab" id="tutor" href="tutor.html">Tutor</a>
 		<div class="spacer"></div>
-		<a class="tab" id="Profession" href="Profession.html">Profession</a>
-
+		<a class="tab" id="profession" href="profession.html">Profession</a>
 	</div>
 </div>
-<div id="bottom"></div>
-<div id="border">
-	<div id="maintext"><em>Get personal tutoring in any subject</em></div>
+<div id="bottom">
 </div>
-
+<div id="border">
+	<div id="createprof" >
+	<div id="nicealignment">
+		<p class = "smallfont"> Email: <input type="text" id="email" name="Email" value=""></p>
+		<p class = "smallfont"> Password: <input type="password" id="pass" name="Pass" value=""></p>
+		<input type="submit" value="Submit">
+	</div>
+	</div>
+</div>
 </body>
 </html>
-
