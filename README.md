@@ -1,5 +1,5 @@
 LexHack
 =======
 
-Tutor Project for LexHack
-Find it at krishnasuraj.github.io/LexHack (under construction)
+Tutor Project for LexHack\n
+Find it at https://krishnasuraj.github.io/LexHack (under construction)
